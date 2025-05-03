@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    --iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+.headerblock {
+    background-color: var(--white);
+}
+.title-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy-blue);
+    text-transform: uppercase;
+    line-height: 1.16667;
+    letter-spacing: 0.54px;
+}
+.title-name-web {
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link a {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--navy-blue);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.nav-link a:hover {
+    color: var(--ocean);
+}
+.nav-link a:active {
+    text-decoration: underline;
+    color: var(--ocean);
+}
+.address-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--slate);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.address-link:hover {
+    color: var(--ocean);
+}
+.main-about {
+    background-color: var(--navy-blue);
+    text-align: center;
+}
+.main-about h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.07143;
+    letter-spacing: 1.12;
+    text-align: center;
+    max-width: 505px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-about button {
+    width: 169px;
+    height: 56px;
+    background-color: var(--iris);
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.main-about button:hover {
+    background-color: var(--ocean);
+}
+.strategy-studio {
+    text-align: center;
+}
