@@ -20,6 +20,7 @@ body {
         padding: 0;
     }
 }
+/* header */
 .headerblock {
     background-color: var(--white);
 }
@@ -62,6 +63,7 @@ body {
 .address-link:hover {
     color: var(--ocean);
 }
+/* main-about */
 .main-about {
     background-color: var(--navy-blue);
     text-align: center;
@@ -72,7 +74,7 @@ body {
     font-weight: 700;
     color: var(--white);
     line-height: 1.07143;
-    letter-spacing: 1.12;
+    letter-spacing: 1.12px;
     text-align: center;
     max-width: 505px;
     width: 100%;
@@ -87,7 +89,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64;
+    letter-spacing: 0.64px;
     cursor: pointer;
     border: 0;
     border-radius: 10px;
@@ -96,6 +98,68 @@ body {
 .main-about button:hover {
     background-color: var(--ocean);
 }
+/* strategy-studio */
 .strategy-studio {
+    background-color: var(--white);
+}
+.strategy-studio li {
+    width: 264px;
+    height: 104px;
+    text-align: left;
+}
+.third-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--navy-blue);
+}
+.post-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--slate);
+}
+/* our-team */
+.our-team {
     text-align: center;
+    background-color: var(--cloud);
+}
+.second-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11111;
+    color: var(--navy-blue);
+    letter-spacing: 0.72px;
+    text-align: center;
+}
+.our-team li {
+    background-color: var(--white);
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+/* our-portfolio */
+.our-portfolio {
+    background-color: var(--white);
+}
+.our-portfolio li {
+    width: 360px;
+    height: 420px;
+    text-align: left;
+    background-color: var(--white);
+    border: 1px solid #e7e9fc;
+}
+/* footer */
+footer {
+    background-color: var(--navy-blue);
+}
+footer .post-text {
+    color: var(--cloud);
+    width: 264px;
+    height: 72px;
 }
