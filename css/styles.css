@@ -22,26 +22,26 @@ body {
 }
 /* header */
 .headerblock {
-  background-color: var(--white);
+  background-color: #fff;
 }
 .title-name {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: var(--navy-blue);
+  color: #2e2f42;
   text-transform: uppercase;
   line-height: 1.16667;
   letter-spacing: 0.54px;
 }
 .title-name-web {
-  color: var(--iris);
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
 .nav-link a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: var(--navy-blue);
+  color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -65,7 +65,7 @@ body {
 }
 /* main-about */
 .main-about {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
   text-align: center;
 }
 .main-about h1 {
@@ -83,7 +83,7 @@ body {
 .main-about button {
   width: 169px;
   height: 56px;
-  background-color: var(--iris);
+  background-color: #4d5ae5;
   color: var(--white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -113,7 +113,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .post-text {
   font-family: "Roboto", sans-serif;
@@ -132,7 +132,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11111;
-  color: var(--navy-blue);
+  color: #2e2f42;
   letter-spacing: 0.72px;
   text-align: center;
 }
@@ -156,7 +156,7 @@ body {
 }
 /* footer */
 footer {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 footer .post-text {
   color: var(--cloud);
