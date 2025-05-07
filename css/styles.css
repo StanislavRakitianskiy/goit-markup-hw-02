@@ -30,7 +30,7 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
-.nav-link a {
+.nav-link .nav-link-element {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -38,14 +38,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.nav-link a:hover {
+.nav-link .nav-link-element:hover {
   color: #404bbf;
 }
-.nav-link a:active {
+.nav-link .nav-link-element:active {
   text-decoration: underline;
   color: #404bbf;
 }
-.nav-link a:focus {
+.nav-link .nav-link-element:focus {
   color: #404bbf;
 }
 .nav-header .title-name-first:active {
