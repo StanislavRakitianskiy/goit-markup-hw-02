@@ -45,6 +45,9 @@ body {
   text-decoration: underline;
   color: #404bbf;
 }
+.nav-link a:focus {
+  color: #404bbf;
+}
 .nav-header .title-name-first:active {
   color: #404bbf;
 }
@@ -72,7 +75,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   color: #fff;
-  line-height: 1.7;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
 }
