@@ -45,6 +45,12 @@ body {
   text-decoration: underline;
   color: #404bbf;
 }
+.nav-header .title-name-first:active {
+  color: #404bbf;
+}
+.address-post {
+  font-style: normal;
+}
 .address-link {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -61,16 +67,16 @@ body {
   background-color: #2e2f42;
   text-align: center;
 }
-.main-about h1 {
+.main-about .about-text-content {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   color: #fff;
-  line-height: 1.07143;
+  line-height: 1.7;
   letter-spacing: 1.12px;
   text-align: center;
 }
-.main-about button {
+.main-about .about-button {
   background-color: #4d5ae5;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -83,6 +89,9 @@ body {
 }
 .main-about button:hover {
   background-color: #404bbf;
+}
+.main-about button:focus {
+  background-color: #404BBF;
 }
 /* strategy-studio */
 .strategy-studio {
@@ -115,12 +124,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111;
+  line-height: 1.11;
   color: #2e2f42;
   letter-spacing: 0.72px;
   text-align: center;
+  text-transform: capitalize;
 }
-.our-team li {
+.our-team .our-team-element {
   background-color: #fff;
 }
 /* our-portfolio */
